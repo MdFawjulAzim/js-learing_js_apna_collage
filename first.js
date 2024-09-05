@@ -280,3 +280,8 @@
 
 //array methods
 
+let items =[300,366,253,236,26358,265];
+
+console.log(items.push("chips","ice"));
+
+console.log(items)

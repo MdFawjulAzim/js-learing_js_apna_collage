@@ -343,10 +343,28 @@
 //     console.log(val.toUpperCase());
 // })
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-numbers.forEach(function(number) {
-  console.log(number);
-});
-numbers.forEach((number) => {console.log(number)});
+// numbers.forEach(function(number) {
+//   console.log(number);
+// });
+// numbers.forEach((number) => {console.log(number)});
+
+
+// let arr =[22,32,4   ];
+
+// let newValue =arr.map((val)=>{
+//    return val **2;
+// })
+
+// console.log(newValue);
+
+let arr =[22,32,4   ];
+
+let newValue =arr.map((val)=>{
+   return val **2;
+})
+
+console.log(newValue);
+
 

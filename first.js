@@ -318,18 +318,27 @@
 
 
 
-//Qu.solve
+// //Qu.solve
 
 
-function countVowels(str){
-    let count=0;
-    for (const char of str){
-        if(char === "a"||char==="e"||char==="i"||char==="o"||char==="u"){
-            count++;
-        }
-    }
-    return count;
-}
+// function countVowels(str){
+//     let count=0;
+//     for (const char of str){
+//         if(char === "a"||char==="e"||char==="i"||char==="o"||char==="u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-let count=countVowels("fawjul azim");
-console.log(count);
+// let count=countVowels("fawjul azim");
+// console.log(count);
+
+
+// // forEach function
+
+// let arr =["dhaka","delhi","mumbai"];
+
+// arr.forEach((val)=>{
+//     console.log(val.toUpperCase());
+// })

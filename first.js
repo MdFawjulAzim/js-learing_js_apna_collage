@@ -305,3 +305,13 @@
 // let sums = sum(4,5);
 // console.log(sums);
 
+
+//arrow function
+
+const le=(a,b)=>{
+    s=a+b;
+    return s;
+}
+
+let sum=le(25,5)
+console.log(sum);

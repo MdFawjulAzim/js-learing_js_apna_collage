@@ -359,12 +359,24 @@
 
 // console.log(newValue);
 
-let arr =[1,2,3,4,5,6,7,8,9,10   ];
+// let arr =[1,2,3,4,5,6,7,8,9,10   ];
 
-let newValue =arr.filter((val)=>{
-   return val % 2 === 0;
-})
+// let newValue =arr.filter((val)=>{
+//    return val % 2 === 0;
+// })
 
-console.log(newValue);
+// console.log(newValue);
+
+// let arr =[1,2,3,4,5,6,7,8,9,10   ];
+
+// const output=arr.reduce((res,curr)=>{
+//     return res+curr;
+// });
+
+// console.log(output);
+
+
+
+
 
 

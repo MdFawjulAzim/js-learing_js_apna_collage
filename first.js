@@ -280,16 +280,28 @@
 
 //array methods
 
-let items =[300,366,253,236,26358,265];
+// let items =[300,366,253,236,26358,265];
 
-console.log(items.push("chips","ice"));
+// console.log(items.push("chips","ice"));
 
-console.log(items) ;
+// console.log(items) ;
 
-console.log(items.slice(6));
+// console.log(items.slice(6));
 
-console.log(items);
+// console.log(items);
 
-console.log(items.splice(4));
+// console.log(items.splice(4));
 
-console.log(items); 
+// console.log(items); 
+
+// //function in JS
+
+
+// function sum(a,b){
+//     s=a+b;
+//     return s;
+// }
+
+// let sums = sum(4,5);
+// console.log(sums);
+

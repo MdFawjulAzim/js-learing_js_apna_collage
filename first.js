@@ -306,12 +306,30 @@
 // console.log(sums);
 
 
-//arrow function
+// //arrow function
 
-const le=(a,b)=>{
-    s=a+b;
-    return s;
+// const le=(a,b)=>{
+//     s=a+b;
+//     return s;
+// }
+
+// let sum=le(25,5)
+// console.log(sum);
+
+
+
+//Qu.solve
+
+
+function countVowels(str){
+    let count=0;
+    for (const char of str){
+        if(char === "a"||char==="e"||char==="i"||char==="o"||char==="u"){
+            count++;
+        }
+    }
+    return count;
 }
 
-let sum=le(25,5)
-console.log(sum);
+let count=countVowels("fawjul azim");
+console.log(count);

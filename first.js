@@ -376,21 +376,24 @@
 // console.log(output);
 
 
-let n=prompt("Enter a Number");
+// let n=prompt("Enter a Number");
 
-let arr=[];
+// let arr=[];
 
-for (let i=1;i<=n;i++){
-    arr[i-1]=i;
+// for (let i=1;i<=n;i++){
+//     arr[i-1]=i;
 
-}
-console.log(arr);
+// }
+// console.log(arr);
 
-let sum=arr.reduce((res,curr)=>{
-    return res+curr;
-})
+// let sum=arr.reduce((res,curr)=>{
+//     return res+curr;
+// })
 
-console.log(sum);
+// console.log(sum);
+
+
+document.getElementsByTagName("body");
 
 
 

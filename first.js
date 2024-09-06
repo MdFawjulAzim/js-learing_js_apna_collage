@@ -392,8 +392,42 @@
 
 // console.log(sum);
 
+// //Dom
+// // document.getElementsByTagName("body");
 
-document.getElementsByTagName("body");
+// let Dom_id=document.getElementById("myId");
+// console.dir(Dom_id);
+// console.log(Dom_id);
+
+// let Dom_class=document.getElementsByClassName("myClass");
+// console.dir(Dom_class);
+// console.log(Dom_class);
+
+
+// let Dom_tag=document.getElementsByTagName("p");
+// console.dir(Dom_tag);
+// console.log(Dom_tag);
+
+
+// let elements=document.querySelector("p");
+// console.log(elements);
+// console.dir(elements);
+
+// let elementss=document.querySelectorAll("p");
+// console.log(elementss);
+// console.dir(elementss);
+
+
+let h1=document.querySelector("h1");
+console.dir(h1.innerText);
+
+h1.innerText=h1.innerText.concat(" I am Fawjul azim");
+
+
+
+
+
+
 
 
 

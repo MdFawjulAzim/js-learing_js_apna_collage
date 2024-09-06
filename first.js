@@ -418,15 +418,23 @@
 // console.dir(elementss);
 
 
-let h1=document.querySelector("h1");
-console.dir(h1.innerText);
+// let h1=document.querySelector("h1");
+// console.dir(h1.innerText);
 
-h1.innerText=h1.innerText.concat(" I am Fawjul azim");
-
-
+// h1.innerText=h1.innerText.concat(" I am Fawjul azim");
 
 
+let divs = document.querySelectorAll(".box");
 
+// console.dir(divs);
+
+// divs[0].innerText ="Fawjul"
+
+let ind=1;
+for(div of divs){
+    div.innerText=`Fawjul ${ind}`;
+    ind++;
+}
 
 
 

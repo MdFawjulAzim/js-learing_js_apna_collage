@@ -424,18 +424,33 @@
 // h1.innerText=h1.innerText.concat(" I am Fawjul azim");
 
 
-let divs = document.querySelectorAll(".box");
+// let divs = document.querySelectorAll(".box");
 
-// console.dir(divs);
+// // console.dir(divs);
 
-// divs[0].innerText ="Fawjul"
+// // divs[0].innerText ="Fawjul"
 
-let ind=1;
-for(div of divs){
-    div.innerText=`Fawjul ${ind}`;
-    ind++;
-}
+// let ind=1;
+// for(div of divs){
+//     div.innerText=`Fawjul ${ind}`;
+//     ind++;
+// }
 
+
+let dom =document.querySelector('div')
+
+dom.style.backgroundColor ="green";
+
+dm = dom.getAttribute("class");
+
+console.log(dm);
+
+let a = dom.setAttribute("class","azim");
+console.log(a);
+dm = dom.getAttribute("class");
+console.log(dm);
+
+// dom.style.visibility="hidden"
 
 
 

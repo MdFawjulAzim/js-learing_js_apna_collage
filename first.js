@@ -437,20 +437,40 @@
 // }
 
 
-let dom =document.querySelector('div')
+// let dom =document.querySelector('div')
 
-dom.style.backgroundColor ="green";
+// dom.style.backgroundColor ="green";
 
-dm = dom.getAttribute("class");
+// dm = dom.getAttribute("class");
 
-console.log(dm);
+// console.log(dm);
 
-let a = dom.setAttribute("class","azim");
-console.log(a);
-dm = dom.getAttribute("class");
-console.log(dm);
+// let a = dom.setAttribute("class","azim");
+// console.log(a);
+// dm = dom.getAttribute("class");
+// console.log(dm);
 
-// dom.style.visibility="hidden"
+// // dom.style.visibility="hidden"
+
+
+// let el =document.createElement("button")
+// el.innerText="click me";
+// el.style.backgroundColor ="green";
+
+
+// document.querySelector(".myClass").append(el)
+
+// let div = document.querySelector(".myClass");
+
+// div.after(el);
+
+// div.append(el);
+
+// div.prepend(el);
+
+// div.after(el);
+
+// div.remove(el);
 
 
 

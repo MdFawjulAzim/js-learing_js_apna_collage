@@ -474,3 +474,14 @@
 
 
 
+// let btn1 = document.querySelector("#btn");
+
+// btn1.onclick = () => {
+//     console.log("one click");
+//     let a=25;
+//     a++;
+//     console.log(a);
+// };
+
+
+

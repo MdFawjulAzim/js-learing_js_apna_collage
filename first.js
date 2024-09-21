@@ -635,30 +635,30 @@
 
 //try catch(e){
 
-a=5;
-b=10;
+// a=5;
+// b=10;
 
-console.log("a=",a);
-console.log("b=",b);
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-try{
-    console.log("a+b=",a+b+c)
-}catch(err){
-    console.error("Error:",err);
-}
-
-
+// console.log("a=",a);
+// console.log("b=",b);
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// try{
+//     console.log("a+b=",a+b+c)
+// }catch(err){
+//     console.error("Error:",err);
+// }
 
 
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
-console.log("a+b=",a+b)
+
+
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
+// console.log("a+b=",a+b)
 
 
 

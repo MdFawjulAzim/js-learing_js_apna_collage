@@ -507,13 +507,21 @@ class ToyotaCar {
     stop(){
         console.log("Car stopped");
     }
+    setBand(brand){
+        this.brand=brand;
+    }
 }
+
 
 let fortuner = new ToyotaCar;
 
-console.log(typeof fortuner)
+fortuner.stop();
 
+fortuner.start();
 
+fortuner.setBand("Toyota");
+
+// console.log(typeof fortuner)
 
 
 

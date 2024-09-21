@@ -525,24 +525,78 @@
 
 
 
-//constuctor{}
+// //constuctor{}
 
-class ToyotaCar {
-    constructor(){
-       console.log("this is constructor");
+// class ToyotaCar {
+//     constructor(){
+//        console.log("this is constructor");
+//     }
+//         start(){
+//             console.log("Car started");
+//         }
+//         stop(){
+//             console.log("Car stopped");
+//         }
+//         setBand(brand){
+//             this.brand=brand;
+//         }
+//     }
+
+//     let fortuner = new ToyotaCar();
+//     fortuner.setBand("Car");
+//     console.log (fortuner.brand);
+
+// //inheritenses
+
+
+// class Person{
+//     sleep(){
+//         console.log("person sleep");
+//     }
+//     eat(){
+//         console.log("person eat");
+//     }
+//     speak(){
+//         console.log("person speak");
+//     }
+
+// }
+// class Person1 extends Person{
+//     work(){
+//         console.log("person1 work");
+//     }
+// }
+
+// let perso = new Person1();
+// perso.work();
+// perso.eat();
+
+// console.log(perso.work())
+
+
+class Person{
+    constructor(name){
+        this.name=name;
+        this.age=25;
     }
-        start(){
-            console.log("Car started");
-        }
-        stop(){
-            console.log("Car stopped");
-        }
-        setBand(brand){
-            this.brand=brand;
-        }
+    eat(){
+        console.log(`${this.name} is eating`);
+    }
+}
+class Person1 extends Person{
+    constructor(name){
+       super(name);
+        this.city="Dhaka";
     }
 
-    let fortuner = new ToyotaCar();
-    fortuner.setBand("Car");
-    console.log (fortuner.brand);
+    sleep(){
+        
+        console.log(`${this.name} is sleeping`);
+        super.eat()
+    }
+}
 
+let person =new Person1("azim");
+person.eat;
+
+ console.log(person.sleep());

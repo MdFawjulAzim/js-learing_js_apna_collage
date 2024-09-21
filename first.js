@@ -498,30 +498,51 @@
 //     console.log(currMode);
 // });
 
-// Classes in js
+// // Classes in js
+
+// class ToyotaCar {
+//     start(){
+//         console.log("Car started");
+//     }
+//     stop(){
+//         console.log("Car stopped");
+//     }
+//     setBand(brand){
+//         this.brand=brand;
+//     }
+// }
+
+
+// let fortuner = new ToyotaCar;
+
+// fortuner.stop();
+
+// fortuner.start();
+
+// fortuner.setBand("Toyota");
+
+// // console.log(typeof fortuner)
+
+
+
+//constuctor{}
 
 class ToyotaCar {
-    start(){
-        console.log("Car started");
+    constructor(){
+       console.log("this is constructor");
     }
-    stop(){
-        console.log("Car stopped");
+        start(){
+            console.log("Car started");
+        }
+        stop(){
+            console.log("Car stopped");
+        }
+        setBand(brand){
+            this.brand=brand;
+        }
     }
-    setBand(brand){
-        this.brand=brand;
-    }
-}
 
-
-let fortuner = new ToyotaCar;
-
-fortuner.stop();
-
-fortuner.start();
-
-fortuner.setBand("Toyota");
-
-// console.log(typeof fortuner)
-
-
+    let fortuner = new ToyotaCar();
+    fortuner.setBand("Car");
+    console.log (fortuner.brand);
 

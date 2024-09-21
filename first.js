@@ -602,33 +602,63 @@
 //  console.log(person.sleep());
 
 
-//practices
+// //practices
 
-let DATA ="Secret Information";
-class User{
-    constructor(name,email){
-        this.name=name;
-        this.email=email;
-    }
-    viewData(){
-        console.log("data=",DATA);
-    }
+// let DATA ="Secret Information";
+// class User{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewData(){
+//         console.log("data=",DATA);
+//     }
+// }
+
+// class Admin extends User{
+//     constructor(name,email){
+//         super(name,email);
+//     }
+//     editData(){
+//         DATA="New Secret Information";
+//         console.log("data edited=",DATA);
+//     }
+// }
+
+
+// let student = new User("azim","azim@");
+// let student2 = new User("rafi","rafi@");
+
+// let admin = new Admin("admin","admin@");
+
+// admin.editData();
+
+//try catch(e){
+
+a=5;
+b=10;
+
+console.log("a=",a);
+console.log("b=",b);
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+try{
+    console.log("a+b=",a+b+c)
+}catch(err){
+    console.error("Error:",err);
 }
 
-class Admin extends User{
-    constructor(name,email){
-        super(name,email);
-    }
-    editData(){
-        DATA="New Secret Information";
-        console.log("data edited=",DATA);
-    }
-}
 
 
-let student = new User("azim","azim@");
-let student2 = new User("rafi","rafi@");
 
-let admin = new Admin("admin","admin@");
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
+console.log("a+b=",a+b)
 
-admin.editData();
+
+

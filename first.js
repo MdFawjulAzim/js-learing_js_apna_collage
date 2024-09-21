@@ -574,29 +574,61 @@
 // console.log(perso.work())
 
 
-class Person{
-    constructor(name){
-        this.name=name;
-        this.age=25;
-    }
-    eat(){
-        console.log(`${this.name} is eating`);
-    }
-}
-class Person1 extends Person{
-    constructor(name){
-       super(name);
-        this.city="Dhaka";
-    }
+// class Person{
+//     constructor(name){
+//         this.name=name;
+//         this.age=25;
+//     }
+//     eat(){
+//         console.log(`${this.name} is eating`);
+//     }
+// }
+// class Person1 extends Person{
+//     constructor(name){
+//        super(name);
+//         this.city="Dhaka";
+//     }
 
-    sleep(){
+//     sleep(){
         
-        console.log(`${this.name} is sleeping`);
-        super.eat()
+//         console.log(`${this.name} is sleeping`);
+//         super.eat()
+//     }
+// }
+
+// let person =new Person1("azim");
+// person.eat;
+
+//  console.log(person.sleep());
+
+
+//practices
+
+let DATA ="Secret Information";
+class User{
+    constructor(name,email){
+        this.name=name;
+        this.email=email;
+    }
+    viewData(){
+        console.log("data=",DATA);
     }
 }
 
-let person =new Person1("azim");
-person.eat;
+class Admin extends User{
+    constructor(name,email){
+        super(name,email);
+    }
+    editData(){
+        DATA="New Secret Information";
+        console.log("data edited=",DATA);
+    }
+}
 
- console.log(person.sleep());
+
+let student = new User("azim","azim@");
+let student2 = new User("rafi","rafi@");
+
+let admin = new Admin("admin","admin@");
+
+admin.editData();

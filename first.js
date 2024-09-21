@@ -484,21 +484,34 @@
 // };
 
 
-let modeBtn = document.querySelector("#mode");
-let currMode = "light";
+// let modeBtn = document.querySelector("#mode");
+// let currMode = "light";
 
-modeBtn.addEventListener("click", () => {
-    if (currMode === "light") {
-        currMode = "dark";
-        document.querySelector("body").style.backgroundColor = "black"; // Set background to black for dark mode
-    } else {
-        currMode = "light";
-        document.querySelector("body").style.backgroundColor = "white"; // Set background to white for light mode
+// modeBtn.addEventListener("click", () => {
+//     if (currMode === "light") {
+//         currMode = "dark";
+//         document.querySelector("body").style.backgroundColor = "black"; // Set background to black for dark mode
+//     } else {
+//         currMode = "light";
+//         document.querySelector("body").style.backgroundColor = "white"; // Set background to white for light mode
+//     }
+//     console.log(currMode);
+// });
+
+// Classes in js
+
+class ToyotaCar {
+    start(){
+        console.log("Car started");
     }
-    console.log(currMode);
-});
+    stop(){
+        console.log("Car stopped");
+    }
+}
 
+let fortuner = new ToyotaCar;
 
+console.log(typeof fortuner)
 
 
 

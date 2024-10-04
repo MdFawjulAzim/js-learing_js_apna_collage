@@ -663,4 +663,66 @@
 
 
 
-hassan azim;
+// hassan azim;
+
+
+ //callback
+
+//  function sum(a,b){
+//     console.log(a+b);
+//  }
+
+//  function calculator(a,b,sumCallback){
+//     sumCallback(a,b);
+//  }
+
+//  calculator(5,5,(a,b)=>{
+//     console.log(a-b);
+//  });
+
+
+//  function getData (dataId,getNextData){
+//     setTimeout(()=>{
+//         console.log("data",dataId);
+//         if(getNextData){
+//             getNextData();
+//         }else{
+//             console.log("No more data");
+//         }
+
+//     },2000);
+//  }
+
+//  getData(1,()=>{
+//     console.log("data 2 pending");
+//     getData(2);
+//  },()=>{
+//     console.log("data 3 pending");
+//     getData(3);
+//  },()=>{
+//     getData(4);
+//  });
+
+//  function getData(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log(" pending");
+//             resolve(200)
+//         },2000);
+//     });
+//  }
+
+// //  async function  getdata(){
+// //     await getData();
+// //     await getData();
+
+// //  }
+
+//  (async function (){
+//     await getData();
+//     await getData();
+
+//  })();
+
+
+
